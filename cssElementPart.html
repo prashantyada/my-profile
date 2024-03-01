@@ -6,6 +6,10 @@
     <title>css Learning </title>
     <!-- CDN Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Google Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <style>
       <style>
         {
@@ -20,6 +24,7 @@
            text-align: center;
            text-decoration: underline;
            text-transform: uppercase;
+           font-family: "Roboto", sans-serif;
         }
         }
         #experience{
@@ -50,18 +55,23 @@
       }
       .home{
         margin-right: 20px;
+        font-family: "Roboto", sans-serif;
       }
-      .techstack{
+      .techstac{
         margin-right: 20px;
+        font-family: "Roboto", sans-serif;
       }
       .project{
         margin-right: 20px;
+        font-family: "Roboto", sans-serif;
       }
       .education{
         margin-right: 20px;
+        font-family: "Roboto", sans-serif;
       }
       .personaldetails{
         margin-right: 20px;
+        font-family: "Roboto", sans-serif;
       }
       .designed{
         margin-right: 20px;
@@ -105,6 +115,30 @@
       .nbsp{
         margin-left: 10px;
       }
+      #listSummary{
+        font-family: "Poppins", sans-serif;
+      }
+      #techStack{
+        font-family: "Roboto", sans-serif;
+      }
+      #project{
+        font-family: "Roboto", sans-serif;
+      }
+      #education{
+        font-family: "Roboto", sans-serif;
+      }
+      #personaldetails{
+        font-family: "Roboto", sans-serif;
+      }
+      #others{
+        font-family: "Roboto", sans-serif;
+      }
+      #for{
+        font-family: "Poppins", sans-serif;
+      }
+      #pro{
+        font-family: "Poppins", sans-serif;
+      }
 </style>
     </style>
 </head>
@@ -126,7 +160,7 @@
   <!-- Navigation Section -->
   <nav>
       <a class="home" href="#HOME">HOME</a>
-      <a class="techstack" href="#techStack">TECH STACK</a>
+      <a class="techstac" href="#techStack">TECH STACK</a>
       <a class="project" href="#project">PROJECTS DETAILS</a>
       <a class="education" href="#education">EDUCATION</a>
       <a class="personaldetails" href="#personaldetails" target="_blank">PERSONAL DETAILS</a>
@@ -136,7 +170,7 @@
   <!-- Main Section -->
   <section id="HOME">
     <h2 style="color: brown; font-style: italic;">Professional Summary </h2>
-    <ul>
+    <ul id="listSummary">
       <li>Ability to work with people at all levels in the program</li>
       <li style="color: red;">Having 1 years of experience in developing Single page Web Applications using Angular 8, HTML5, CSS3, Bootstrap 5, JavaScript, TypeScript</li>
       <li style="color: red;">Experience on working with version control system-GIT and GitHub</li>
@@ -151,12 +185,10 @@
   <hr>
   <!-- Technology stack section -->
   <section id="techStack">
-    <h2>My Technology stack is 
-      
-    </h2>
+    <h2>My Technology stack is </h2>
     <table border="1">
       <thead>
-          <th>Sr.No</th>\
+          <th>Sr.No</th>
           <th>Technology stack</th>
           <th>Rating</th>
       </thead>
@@ -197,11 +229,11 @@
   <strong><b>Team Size:</b></strong>06 <b class="duration">Duration:</b><i class="nbsp">2021-1<sup>st</sup>-Juy till <u>present</u></i>
   </p>
   <p>
-    <b>Project Description:</b>This project is mainly used for student management in colleges,where It help to manage student record like<br> student registration, student update, and to see all the list of academic activities like score card and attendance.
+    <b id="pro">Project Description:</b>This project is mainly used for student management in colleges,where It help to manage student record like<br> student registration, student update, and to see all the list of academic activities like score card and attendance.
   </p>
   <hr>
   <h3>Role and Responsibilities</h3>
-  <ul>
+  <ul id="for">
     <li class="designed">Designed and implemented the user interface using <strong>HTML5 and CSS3</strong><br></li>
     <li class="work">Work closely with backend developers for code integration<br></li>
     <li class="identyfying">Identyfying and troubleshootingissues with front end codebase <br></li>
