@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); 
+    *{
+        margin:0;
+    }
+    {
+        navigation{
+          margin-left: 30px;
+        }
+      }
+      {
+        #summary{
+         font-size: larger; 
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         text-align: center;
+         text-decoration: underline;
+         text-transform: uppercase;
+         font-family: "Roboto", sans-serif;
+      }
+      }
+      #posstion{
+        position: fixed;
+        background-color: chocolate;
+      }
+
+      #experience{
+          font-weight: bolder;
+      }
+      .tech{
+          color: cadetblue;
+          margin-right: 30px;
+          margin-left: 10px;
+      }
+      .header-info{
+        margin-right: 30px;
+        margin-left: 10px;
+      }
+      .email{
+        margin-right: 30px;
+        margin-left: 10px;
+      }
+      .resume{
+        margin-right: 10px;
+      }
+      table, tr, th, td {
+      border: 2px solid rgb(216, 186, 131);
+      border-collapse: collapse;
+    }
+    td,th{
+      padding: 10px;
+    }
+
+     /* Navigation Section */
+     #para{
+      margin-top: 30px;
+      position: fixed;
+      background-color: rgb(243, 135, 135) ;
+     }
+     #chat{
+      margin-right: 20px;
+      margin-bottom: 20px;
+      position: fixed;
+      
+     }
+    .home{
+      margin-right: 20px;
+      font-family: "Roboto", sans-serif;
+    }
+    .techstac{
+      margin-right: 20px;
+      font-family: "Roboto", sans-serif;
+    }
+    .project{
+      margin-right: 20px;
+      font-family: "Roboto", sans-serif;
+    }
+    .education{
+      margin-right: 20px;
+      font-family: "Roboto", sans-serif;
+    }
+    .personaldetails{
+      margin-right: 20px;
+      font-family: "Roboto", sans-serif;
+    }
+
+    /* Project Section */
+    .designed{
+      margin-right: 20px;
+    }
+    .work{
+      margin-right: 20px;
+    }
+    .identyfying{
+      margin-right: 20px;
+    }
+    .worked{
+      margin-right: 20px;
+    }
+    .used{
+      margin-right: 20px;
+    }
+    .implemented{
+      margin-right: 20px;
+    }
+    .involve{
+      margin-right: 20px;
+    }
+    #for{
+      font-family: "Poppins", sans-serif;
+    }
+    #pro{
+      font-family: "Poppins", sans-serif;
+    }
+
+    /**/
+    .duration{
+      margin-left: 30px;
+    }
+    .student{
+      margin-left: 10px;
+    }
+    .angular{
+      margin-left: 10px;
+    }
+    .nbsp{
+      margin-left: 10px;
+    }
+    #listSummary{
+      font-family: "Poppins", sans-serif;
+    }
+    #techStack{
+      font-family: "Roboto", sans-serif;
+    }
+    #project{
+      font-family: "Roboto", sans-serif;
+    }
+    #education{
+      font-family: "Roboto", sans-serif;
+    }
+
+    /*personal Details*/
+    #personaldetails{
+      font-family: "Roboto", sans-serif;
+    }
+    .prashant{
+      margin-left: 30px;
+    }
+
+    /*Others*/
+    #others{
+      font-family: "Roboto", sans-serif;
+    }
+
+    /* Footer Section*/
+    .instagram{
+      margin-right: 30px;
+    }
+    .linkedin{
+      margin-right: 30px;
+    }
+    #whatsapp{
+      bottom: 20px;
+      right: 40px;
+      position: fixed;
+    }
+
+    
